@@ -10,9 +10,9 @@
         p {font-style: normal;}
         h2 { color: crimson; }
         h2~p { background-color: magenta; }
-        ul { background-color: blue; }
         address+em,strong { color: blue;}
         dd { background-color: cyan; }
+        ul+li,time-1 { background-color: blue; }
     </style>
 </head>
 <body>
@@ -65,9 +65,9 @@
 
 
     <ul>
-        <li>First semester: <time datetime="2016-09-9"> 9 September 2016</time> </li>
-        <li>Second semester: <time datetime="2017-01-15">15 January 2017</time> </li>
-        <li>Third semester: <time datetime="2017-M5"> May 2017</time> </li>
+        <li>First semester: <time-1 datetime="2016-09-9"> 9 September 2016</time> </li>
+        <li>Second semester: <time-1 datetime="2017-01-15">15 January 2017</time> </li>
+        <li>Third semester: <time-1 datetime="2017-M5"> May 2017</time> </li>
     </ul>
 
 
